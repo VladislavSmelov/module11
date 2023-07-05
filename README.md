@@ -167,5 +167,14 @@ branch 'master' set up to track 'origin/master'.
 - Добавляем файлы к комиту `$ git add .`
 - Проверяем статус
 ```bash
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
 ```
+- Делаем коммит `$ git commit -m "README.md complete file"`
+- Загружаем на удаленый репозиторий `$ git push -u origin master`
